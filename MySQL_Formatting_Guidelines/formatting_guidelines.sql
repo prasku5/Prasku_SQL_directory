@@ -3,7 +3,7 @@
 -- Description: Use table aliases that are abbreviations of the table name. Avoid using the AS keyword for table aliases to clearly distinguish them from column aliases.
 
 SELECT
-  P.FirstName,
+  P.FirstName, 
   P.LastName
 FROM
   leetcode.Person_example P
